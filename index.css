@@ -1,0 +1,58 @@
+body{
+    margin-left: 20px;
+    color: grey;
+    background-color: black;
+}
+
+.aboutMe p{
+    font-style: italic;
+    font-size: xx-large;
+}
+
+ul {
+    font-size: xx-large;
+    color: white;
+    display: inline-flex;
+    list-style-type: none;
+    margin-left: 10vw;
+    justify-content: space-between;
+}
+
+.img {
+    height: 30vh;
+    width: 30vw;
+    position: absolute;
+    top: 110px;
+    left:950px; 
+}
+
+.img >img{
+    object-fit: scale-down;
+    height: 30vh;
+    width: 30vw;
+    opacity: 0.5;
+}
+
+.contact li{
+list-style-type: none;
+font-size: large;
+margin-left: 20vw;
+border: solid red 2px;
+}
+
+nav {
+    background-color: black;
+    height: 7vh;
+align-content: center;
+justify-content: space-between;
+
+}
+
+footer {
+    margin-top: 200px;
+    background-color: white;
+    display: inline-flex;
+    width: 100vw;
+
+
+}
